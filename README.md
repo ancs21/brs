@@ -220,9 +220,10 @@ Response
 
 1. Clone repo and install (require node version 16+)
 ```
-git clone ...
-cd ..
+git clone https://github.com/ancs21/brs.git
+cd brs/
 
+# install dependency
 yarn
 ```
 
@@ -231,7 +232,7 @@ yarn
 docker-compose up -d
 ```
 
-3. Create .env file
+3. Create or update .env file
 ```bash
 PORT=3000
 DATABASE_HOST=localhost
