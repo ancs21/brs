@@ -23,11 +23,12 @@ _Specification required_:
 ## Tech stack
 
 - Typescript
-- Nest.JS (Node.js framework)
+- Nest.JS (Node.js framework) - SOLID principles 
 - PostgreSQL
 - TypeORM
 - Bull (Queue processing)
 - EventEmitter2
+- ts-patterns (Pattern Matching library for TypeScript)
 
 ## Folder structure
 
